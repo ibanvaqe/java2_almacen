@@ -3,8 +3,8 @@ public class Direccion {
 //propiedades
 private String calle;
 private int numero;
-private String puerta;
 private String localidad;
+private String pais;
 
 public void setCalle (String dato)
     {
@@ -16,9 +16,9 @@ public void setNumero (int dato)
         this.numero=dato;
 	}
 
-public void setPuerta(String dato)
+public void setPais(String dato)
     {
-        this.puerta=dato;
+        this.pais=dato;
 	}
 
 public void setLocalidad(String dato)
@@ -38,9 +38,9 @@ public int getNumero()
 	return numero;
  	}
 
-public String getPuerta() 
+public String getPais() 
  	{	
-	return puerta;
+	return pais;
  	}
 public String getLocalidad() 
  	{	
