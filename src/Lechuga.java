@@ -7,6 +7,7 @@ private String procedencia;
 private String color;
 private Double eurosUnidad;
 private Distribuidor distribuidor;
+private int cod_barras;
 
 public void setTipoLechuga (String dato)
     {
@@ -33,6 +34,11 @@ public void setDistribuidor(Distribuidor dato)
         this.distribuidor=dato;
 	}	
 
+public void setCod_barras(int dato)
+    {
+        this.cod_barras=dato;
+	}	
+
 public String getTipoLechuga() 
  	{	
 	return tipoLechuga;
@@ -55,5 +61,8 @@ public Distribuidor getDistribuidor()
  	{	
 	return distribuidor;
  	}
-
+public int getCod_barras() 
+ 	{	
+	return cod_barras;
+ 	}
 }

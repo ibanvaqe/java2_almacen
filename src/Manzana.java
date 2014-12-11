@@ -6,6 +6,7 @@ private String procedencia;
 private String color;
 private Double eurosKilo;
 private Distribuidor distribuidor;
+private int cod_barras;
 
 public void setTipoManzana (String dato)
     {
@@ -32,6 +33,11 @@ public void setDistribuidor(Distribuidor dato)
         this.distribuidor=dato;
 	}	
 
+public void setCod_barras(int dato)
+    {
+        this.cod_barras=dato;
+	}	
+
 public String getTipoManzana() 
  	{	
 	return tipoManzana;
@@ -54,5 +60,8 @@ public Distribuidor getDistribuidor()
  	{	
 	return distribuidor;
  	}
-
+public int getCod_barras() 
+ 	{	
+	return cod_barras;
+ 	}
 }
